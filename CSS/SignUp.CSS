@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding:0;
+    border:0;
+    font-family:sans-serif;
+    background:url(../Images/travel-photography-tips-boys-playing-in-lagoon.jpg);
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.box{
+    //background-color: white;
+    width : 700px;
+    height: 300px;
+    padding : 40px;
+    position : absolute;
+    top: 80%;
+    left: 50%;
+   transform : translate(-50% , -50%);    text-align: center;
+    
+}
+h1{
+    color: white;
+    text-transform:  uppercase;
+    position : absolute;
+    top: 30%;
+    left: 47%;
+}
+.box input[type = "text"][name = "FN"],.box input[type = "text"][name = "LN"]{
+
+    border:0;
+    padding: 14px 10px;
+    width: 222px;
+    height:45px;
+    display:inline-block;
+}
+.box input[type = "text"][name = "email"], .box input[type = "password"][name = "PW"], .box input[type = "password"][name = "CPW"]{
+    border:0;
+    display : block;
+    margin: 4px auto;
+    text-align: center;
+
+    padding: 14px 10px;
+    width: 450px;
+    height:45px;
+    outline: none;
+    border-radius: 0px;
+    transition 0.25s;
+}
+/*.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    width: 280px;
+    border-color :#f39c12;
+}*/
+.box input[type = "submit"]{
+    border:0;
+    background: #1abc9c;
+    display : block;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width : 300px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    transition 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: black;
+}
+.box input[type="radio"],.box span[id="but"]{
+    position:relative;
+    left:5%;
+    padding: 10px;
+}
